@@ -67,7 +67,7 @@ body{
 
 }
 .fourth .pic1_container img{
-    
+    margin-bottom: 1rem;
 }
 .fourth .pic3_container{
     display: flex;
@@ -75,7 +75,7 @@ body{
     width: 20%;
 }
 .fourth .pic3_container img{
-    
+    margin-bottom: 1rem;
 }
 .fourth .pic2_container{
     width: 60%;
