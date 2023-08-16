@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -6,45 +7,150 @@
     border: none;
     outline: none;
     scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
-
 }
-:root{
-    --main-color:#2d4600;
-    --text-color:#FFFFFF;
-    --background-color: black;
-}
-
 body{
-    background-color: var(--background-color);
+    background-color: grey;
 }
-.user-box{
-    justify-content: space-around;
-    background-color: #2d4600;
-    text-align: center;
-    padding: 1rem;
-    align-items: center;
-    position: relative;
-    width: 50%;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-    margin-left: 25%;
-}
-.user-box h2{
-    color: var(--text-color);
-    padding: 1.5rem;
-    justify-content: space-between;
-    font-weight: 400;
-    
-}
-.user-pics{
+.first{
     display: flex;
     flex-direction: row;
-    margin-left: 25%;
-
+    justify-content: space-between;
+    background-color: #3590E3;
+}
+.first .text_container{
+    padding: 1.5rem;
+    font-weight: 800;
+    font-size: 64px;
+    color: white;
+}
+.first .pic_container img{
+    width: 17rem;
+}
+.second{
+    padding-left: 1rem;
+    background-color: #ffffff;
+}
+.second .logo_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.second .logo_container .logo2 img{
+    width: 100%;
+}
+.third .link_container{
+    padding: 0.9rem;
+    display: flex;
+    background-color: #6C9104;
+    color: #ffffff;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.third .link_container a{
+    color: #ffffff;
+}
+.third .link_container .link2_container a{
+    justify-content: space-around;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.fourth{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 1.5rem;
+}
+.fourth .pic1_container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
 
 }
-.user-pics img{
-    width: 5.2%;
+.fourth .pic1_container img{
+    
+}
+.fourth .pic3_container{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.fourth .pic3_container img{
+    
+}
+.fourth .pic2_container{
+    width: 60%;
+}
+.fourth .pic2_container{
+   
+}
+.fifth{
+    
+}
+.fifth img{
+    padding-right: 1.5rem;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.sixth{
+    padding-top: 1rem;
+}
+.sixth img{
+    padding-right: 1.5rem;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.seventh{
+    padding-top: 1rem;
+}
+.seventh img{
+    padding-right: 1.5rem;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.eighth{
+    padding-top: 1rem;
+}
+.eighth img{
+    padding-right: 1.5rem;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.ninth{
+    padding-top: 1rem;
+}
+.ninth img{
+    padding-right: 1.5rem;
+    width: 100%;
+    padding-left: 1.5rem;
+}
+.tenth{
+    padding-top: 1rem;
+}
+.tenth img{
+    width: 100%;
+}
+.tenth .shop1{
+    background-color: #2D4600;
+}
+.tenth .shop1 h4{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 1rem;
+}
+.tenth .shop2{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ffffff;
+    
+}
+.tenth .shop2 img{
     margin: 0.5rem;
 }
+.eleventh img{
+    width: 100%;
+}
+
+
